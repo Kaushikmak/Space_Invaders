@@ -13,9 +13,9 @@ include_directories(
         ${GLEW_DIR}/include
 )
 
-# Link directories
+# Link directories - Use the correct MinGW-compatible folder
 link_directories(
-        ${GLFW_DIR}/lib-vc2022
+        ${GLFW_DIR}/lib-mingw-w64
         ${GLEW_DIR}/lib/Release/x64
 )
 
